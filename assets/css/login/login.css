@@ -1,0 +1,58 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background:url(../../images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+/* 登入注册区域 */
+.loginAndRegBox{
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    /* 盒子水平垂直居中 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.titlebox{
+    height: 60px;
+    background: url(../../images/login_title.png) no-repeat center;
+}
+
+.reg_box{
+    display: none;
+}
+.layui-form{
+    /* background-color: red; */
+    margin: 0 20px;
+}
+.links{
+    display: flex;
+    justify-content:flex-end ;
+}
+
+.links a {
+    font-size: 12px;
+}
+
+
+/* 对小图片进行布局,通过子绝父相 */
+
+.layui-form-item{
+    position: relative;
+}
+.layui-icon{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+.layui-form-item .layui-input{
+    padding-left: 30px;
+
+}
