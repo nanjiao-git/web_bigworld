@@ -71,7 +71,7 @@ $(function () {
                 }
                 layer.msg('登录成功')
 
-                // 讲登录成功的token字符串，保存到localstorage
+                // 将登录成功的token字符串，保存到localstorage
                 localStorage.setItem('token',res.token)
                 // 跳转到后台主页
                 location.href='./index.html'
