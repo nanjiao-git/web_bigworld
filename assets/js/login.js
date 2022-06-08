@@ -24,8 +24,8 @@ $(function () {
          repwd:function(value){
             //  获得第一次输入的密码值
             var pwd =$('.reg_box [name=password]').val()
-            console.log('pwd:',pwd);
-            console.log('value:',value);
+            // console.log('pwd:',pwd);
+            // console.log('value:',value);
             if(pwd !== value){
         
                 return '两次密码不一致'

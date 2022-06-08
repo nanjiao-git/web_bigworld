@@ -26,7 +26,7 @@ $(function(){
 
 
 // 获取用户的基本信息
-function getUserinfo(){
+ window. getUserinfo=function(){
     $.ajax({
       method: 'GET',
       url: '/my/userinfo',
@@ -35,7 +35,7 @@ function getUserinfo(){
         // headers的字母开头要小写，大小写不敏感
         // headers:{Authorization: localStorage.getItem('token') || ''},
         success:function(res){
-            console.log(res);
+            // console.log(res);
             if (res.status!==0){
               return layui.layer.msg('获取用户信息失败！')
               // return console.log("失败");
