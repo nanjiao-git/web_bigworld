@@ -44,17 +44,6 @@ $(function(){
             // console.log(res.data);
             renderAvader(res.data)
         },
-      //   complete:function(res){
-      //     console.log("都会执行complete");
-      //     console.log(res);
-      //     if(res.responseJSON.message=="身份认证失败！"&& res.responseJSON.status==1){
-      //             // 1. 清空本地存储中的 token
-      // localStorage.removeItem('token')
-      // // 2. 重新跳转到登录页面
-      // // 文件的地址要根据js文件导入的html文章为参考
-      // location.href = './login.html'
-      //     }
-      //   }
 
     })
 }
